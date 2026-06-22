@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Fontawsome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- External CSS Link  -->
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Navbar  -->
+    <div class="py-2 border-bottom" style="background-color: transparent;">
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-black"></i> <a href="mailto:support@indbharatfirst.com"
+                            class="text-black text-decoration-none">support@indbharatfirst.com</a></span>
+                    <span><i class="fa-solid fa-phone text-black"></i> <a href="tel:7760776677"
+                            class="text-black text-decoration-none">+91 9090921515</a></span>
+                </div>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-black"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube text-black"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar   -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/index.html" class="nav__logo">
+                    <img src="/assets/image/logo.png" alt="logo">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-x nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="/index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html" class="nav__link">About US</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Services<i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="seo.html" class="dropdown__link">
+                                                Search Engine Optimization</a>
+                                        </li>
+                                        <li>
+                                            <a href="/social-media.html" class="dropdown__link">
+                                                Social Media Marketing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/ppc.html" class="dropdown__link">
+                                                PPC & Performance Ads
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/content.html" class="dropdown__link">Content Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="email.html" class="dropdown__link">Email Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/web.html" class="dropdown__link">Web Design & Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/video.html" class="dropdown__link">Video Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/brand.html" class="dropdown__link">Brand Strategy & Design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">
+                            <button class="header-btn">Get Free Quote <i class="fa-solid fa-arrow-right"></i></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="breadcrumb-sec">
+        <!-- Floating Social Icons  -->
+        <div class="floating-icons">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+            <span><i class="fab fa-youtube"></i></span>
+            <span><i class="fab fa-google"></i></span>
+            <span><i class="fab fa-whatsapp"></i></span>
+            <span><i class="fas fa-envelope"></i></span>
+            <span><i class="fas fa-bullhorn"></i></span>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="breadcrumb-heading text-center">
+                        <h1>Video Marketing</h1>
+                        <div>
+                            <a href="index.html">Home</a>
+                            <i class="fa-solid fa-angle-right text-white"></i>
+                            <span class="text-white">Video Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="pe-lg-4">
+                        <img src="/assets/image/resource/img14.svg" alt="Video Marketing" class="w-100 img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="seo-content mt-4 mt-lg-0">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Video Marketing
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Engage, Educate & Convert</div>
+                                <div>With Powerful Video Stories</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>In today's fast-paced digital world, video is the ultimate medium for storytelling. It
+                            captures attention, builds emotional connection, and drives conversions far more effectively
+                            than static content. At Indbharat First, we design comprehensive video marketing strategies
+                            that make your brand stand out.</p>
+                        <p>Our end-to-end production process handles everything from creative scripting and
+                            storyboarding to voiceover, high-quality rendering, and distribution. We align each video
+                            campaign with your business metrics to deliver absolute ROI.</p>
+                        <div class="space24"></div>
+                        <a href="#video-contact" class="header-btn">
+                            Get Free Video Strategy
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="socialmedia-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Services
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Our Video Marketing Capabilities</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space32"></div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="video-card-item">
+                        <div class="icon-box box1">
+                            <img src="/assets/image/icons/icon11.svg" alt="Promo icon" style="width: 40px;">
+                        </div>
+                        <h3>Explainer & Promo Videos</h3>
+                        <p>Simplify complex ideas and capture interest with custom 2D explainer animations, product
+                            demos, and high-impact promo teasers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="video-card-item">
+                        <div class="icon-box box2">
+                            <img src="/assets/image/icons/icon12.svg" alt="Reels icon" style="width: 40px;">
+                        </div>
+                        <h3>Short-Form Reels & Shorts</h3>
+                        <p>Dominate social feeds on Instagram, TikTok, and YouTube Shorts with dynamic, trend-optimized
+                            vertical clips designed to build virality.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="video-card-item">
+                        <div class="icon-box box3">
+                            <img src="/assets/image/icons/icon13.svg" alt="Brand icon" style="width: 40px;">
+                        </div>
+                        <h3>Brand & Corporate Films</h3>
+                        <p>Establish strong trust and highlight company values with cinematic corporate films, team
+                            stories, and real customer testimonials.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="video-card-item">
+                        <div class="icon-box box4">
+                            <img src="/assets/image/icons/icon14.svg" alt="SEO icon" style="width: 40px;">
+                        </div>
+                        <h3>Video SEO & YouTube Strategy</h3>
+                        <p>Increase search presence with keyword-rich video schema, channel customization, tag
+                            configurations, and thumbnail optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Platforms
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Channels We Optimize For</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space40"></div>
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="platform-card platform-hover border border-light-subtle h-100">
+                        <i class="fa-brands fa-youtube fa-3x" style="color: #FF0000;"></i>
+                        <div class="space16"></div>
+                        <h4>YouTube</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="platform-card platform-hover border border-light-subtle h-100">
+                        <i class="fa-brands fa-instagram fa-3x" style="color: #E1306C;"></i>
+                        <div class="space16"></div>
+                        <h4>Instagram</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="platform-card platform-hover border border-light-subtle h-100">
+                        <i class="fa-brands fa-facebook fa-3x" style="color: #1877F2;"></i>
+                        <div class="space16"></div>
+                        <h4>Facebook</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="platform-card platform-hover border border-light-subtle h-100">
+                        <i class="fa-brands fa-linkedin fa-3x" style="color: #0077B5;"></i>
+                        <div class="space16"></div>
+                        <h4>LinkedIn</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="platform-card platform-hover border border-light-subtle h-100">
+                        <i class="fa-brands fa-tiktok fa-3x" style="color: #000000;"></i>
+                        <div class="space16"></div>
+                        <h4>TikTok</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="platform-card platform-hover border border-light-subtle h-100">
+                        <i class="fa-brands fa-vimeo fa-3x" style="color: #1AB7EA;"></i>
+                        <div class="space16"></div>
+                        <h4>Vimeo</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline Section -->
+    <section class="py-5" style="background-color: #F8F6FC;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Our Process
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Our Video Production Workflow</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space40"></div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 order-2 order-lg-1">
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle green">01</div>
+                        <div class="space16"></div>
+                        <h4>Script & Concept</h4>
+                        <p>We work with you to understand your goals, target audience, and key messages to write a
+                            compelling script and visual blueprint.</p>
+                    </div>
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle blue">02</div>
+                        <div class="space16"></div>
+                        <h4>Storyboard & Layouts</h4>
+                        <p>We sketch out the scene-by-scene transitions and visual style so we have a clear, agreed-upon
+                            framework before production.</p>
+                    </div>
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle yellow">03</div>
+                        <div class="space16"></div>
+                        <h4>Production & Voiceover</h4>
+                        <p>Our team records professional, studio-quality voiceovers and generates premium visual footage
+                            or animations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block order-1 order-lg-2">
+                    <div class="center-image">
+                        <img src="/assets/image/resource/img15.svg" alt="Process illustration">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-3 order-lg-3">
+                    <div class="feature-box">
+                        <div class="icon-circle purple">04</div>
+                        <div class="space16"></div>
+                        <h4>Editing & Sound FX</h4>
+                        <p>We compile frames with dynamic motion graphics, custom transitions, background scores, and
+                            clean audio mixing.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle orange">05</div>
+                        <div class="space16"></div>
+                        <h4>Video SEO Optimization</h4>
+                        <p>We configure titles, description schemas, tag mappings, and optimized thumbnails to rank your
+                            video higher in searches.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle pink">06</div>
+                        <div class="space16"></div>
+                        <h4>Campaign & Distribution</h4>
+                        <p>We launch the video across targeted social feeds and configure tracking links to measure real
+                            viewer acquisition and leads.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                FAQ's
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Frequently Asked Questions</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space16"></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                    Why is video marketing important for business?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Video marketing drives 80% higher conversion rates, retains viewer engagement up to
+                                    40x longer than text, and instantly builds trust. It is highly effective for
+                                    building strong brand recall.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    How long does the video production process take?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    A standard 60-second explainer or promo video typically takes between 2 to 4 weeks.
+                                    This allows for scriptwriting, storyboarding, customer feedback, premium animation
+                                    or filming, editing, and sound design.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    Do you provide scriptwriting and voiceovers?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes, we provide end-to-end services. Our creative copywriters draft custom scripts
+                                    tailored to your goals, and we provide professional voiceover artists across
+                                    multiple accents, languages, and tones.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    What video channels do you manage?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">We manage and optimize campaigns across YouTube, Instagram,
+                                    Facebook, LinkedIn,
+                                    TikTok, and Vimeo. We ensure your videos match each platform's optimal dimensions
+                                    and audience formats.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                    What is Video SEO?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Video SEO is the process of optimizing your video meta-information (titles,
+                                    descriptions, tags, subtitles, and thumbnails) so that search engines like Google
+                                    and YouTube rank your content higher in search results, driving organic views.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                    How much budget do we need for video marketing?
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Budget scales based on whether you need simple animated explainers, vertical social
+                                    clips, or full cinematic live-action shoots. We offer customizable tiers that match
+                                    small businesses to enterprise campaigns.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                    What is Social Media Marketing?
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Social Media Marketing involves creating and sharing content on social platforms to
+                                    increase brand awareness, engagement, website traffic, and sales.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                                    Can digital marketing help small businesses?
+                                </button>
+                            </h2>
+                            <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes. Digital marketing is highly effective for small businesses because it provides
+                                    targeted marketing opportunities within a flexible budget.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                                    What is Local SEO?
+                                </button>
+                            </h2>
+                            <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Local SEO helps businesses appear in local search results, Google Maps, and
+                                    location-based searches, making it easier for nearby customers to find them.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-banner">
+                        <img src="/assets/image/background/Realx.svg" alt="contact" class="">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6">
+                    <div class="contact-header">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Contact Us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Get Free</div>
+                                <div>SEO Analysis</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Make your business rank higher on google find out in one click & get a detailed SEO Web Audit
+                            Report.</p>
+                        <form action="">
+                            <div class="row gy-3">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <textarea name="" id="" rows="4" placeholder="Enter Your Message"></textarea>
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <button class="header-btn">Get Started Today
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-sec py-5">
+        <img src="/assets/image/background/cta13-bg1.png" alt="background" class="cta13-bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="brand-header text-center">
+                        <div class="heading">
+                            <h2 class="text-white">
+                                <div>Ready to Grow Your</div>
+                                <div>Business?</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Let Indbharat First help you build a strong social media presence.</p>
+                        <div class="space40"></div>
+                        <div class="btn-area">
+                            <a href="contact.html" class="brand-btn">Get Started Today
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="contact.html" class="brand-btn-outline ms-3">Request a Consultation
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-logo">
+                        <img src="/assets/image/logo.png" alt="logo">
+                        <p>By optimizing content, leveraging relevant keywords, and adhering to best practices,
+                            businesses can secure prominent position (SEO)</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-content1">
+                        <h3>About Link</h3>
+                        <ul>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-content2">
+                        <h3>Get in touch</h3>
+                        <ul>
+                            <li>
+                                <a href="mailto">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>support@indbharatfirst.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span> Plot No – 12,(SCR) 2nd Floor, <br>Kharvel Nagar, Unit – 3, <br>Behind BDA
+                                        Office,
+                                        751001</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+91 9090921515</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content3">
+                        <h3>Subscribe Our Newsletter</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Enter Your email">
+                            <div class="space16"></div>
+                            <button class="header-btn w-100"> Subscribe
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="space50 d-lg-block d-none"></div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <div class="pera">
+                            <p>ⓒCopyright 2024 SEOC . All rights reserved</p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap CDN Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="/assets/script/script.js"></script>
+
+</body>
+
+</html>

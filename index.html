@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Fontawsome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- External CSS Link  -->
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Navbar  -->
+    <div class="py-2 border-bottom" style="background-color: transparent;">
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-black"></i> <a href="mailto:support@indbharatfirst.com"
+                            class="text-black text-decoration-none">support@indbharatfirst.com</a></span>
+                    <span><i class="fa-solid fa-phone text-black"></i> <a href="tel:7760776677"
+                            class="text-black text-decoration-none">+91 9090921515</a></span>
+                </div>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-black"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube text-black"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar   -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/index.html" class="nav__logo">
+                    <img src="/assets/image/logo.png" alt="logo">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-x nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="/index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html" class="nav__link">About US</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Services<i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="seo.html" class="dropdown__link">
+                                                Search Engine Optimization</a>
+                                        </li>
+                                        <li>
+                                            <a href="/social-media.html" class="dropdown__link">
+                                                Social Media Marketing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/ppc.html" class="dropdown__link">
+                                                PPC & Performance Ads
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/content.html" class="dropdown__link">Content Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="email.html" class="dropdown__link">Email Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/web.html" class="dropdown__link">Web Design & Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/video.html" class="dropdown__link">Video Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/brand.html" class="dropdown__link">Brand Strategy & Design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">
+                            <button class="header-btn">Get Free Quote <i class="fa-solid fa-arrow-right"></i></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-sec">
+        <div class="hero-bg-img">
+            <img src="/assets/image/background/header-bg.png" alt="" class="h-100 w-100">
+        </div>
+        <div class="container">
+            <div class="row row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h5 class="sub-title">
+                            <img src="/assets/image/logo_1.png" alt="logo">
+                            Top #1 SEO &amp; Advertising Agency
+                        </h5>
+                        <div class="space16"></div>
+                        <h2>We Build Campaigns That Make Brands Unforgettable</h2>
+                        <div class="space24"></div>
+                        <p>At our agency, we believe that creativity has the power to transform brands and connect them
+                            with their audiences in meaningful ways.</p>
+                        <div class="space32"></div>
+                        <div class="btn-area">
+                            <a href="contact.html" class="header-btn">
+                                Our Success Stories
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="contact.html" class="header-btn btn2">
+                                Contact Us
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <div class="hero-img">
+                        <img src="/assets/image/background/header-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="images-area">
+                        <div class="about-img">
+                            <img src="/assets/image/resource/about-img.png" alt="" class="h-100 w-100">
+                        </div>
+                        <div class="about-svg">
+                            <svg xmlns="" x="0px" y="0px" viewBox="0 0 288 288">
+                                <linearGradient id="imagewave" x1="70.711%" x2="0%" y1="70.711%" y2="0%">
+                                    <stop class="" offset="0.78%" stop-color="#FF0A54" stop-opacity="1"></stop>
+                                    <stop class="" offset="99.88%" stop-color="#FF0A54" stop-opacity="1"></stop>
+                                </linearGradient>
+                                <path fill="url(#imagewave)">
+
+                                    <animate repeatCount="indefinite" attributeName="d" dur="5s" values="M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+                              c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+                              c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+                              c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z;
+                              
+                              
+                              M51,171.3c-6.1-17.7-15.3-17.2-20.7-32c-8-21.9,0.7-54.6,20.7-67.1c19.5-12.3,32.8,5.5,67.7-3.4C145.2,62,145,49.9,173,43.4
+                              c12-2.8,41.4-9.6,60.2,6.6c19,16.4,16.7,47.5,16,57.7c-1.7,22.8-10.3,25.5-9.4,46.4c1,22.5,11.2,25.8,9.1,42.6
+                              c-2.2,17.6-16.3,37.5-33.5,40.8c-22,4.1-29.4-22.4-54.9-22.6c-31-0.2-40.8,39-68.3,35.7c-17.3-2-32.2-19.8-37.3-34.8
+                              C48.9,198.6,57.8,191,51,171.3z;
+                              
+                              M37.5,186c-12.1-10.5-11.8-32.3-7.2-46.7c4.8-15,13.1-17.8,30.1-36.7C91,68.8,83.5,56.7,103.4,45
+                              c22.2-13.1,51.1-9.5,69.6-1.6c18.1,7.8,15.7,15.3,43.3,33.2c28.8,18.8,37.2,14.3,46.7,27.9c15.6,22.3,6.4,53.3,4.4,60.2
+                              c-3.3,11.2-7.1,23.9-18.5,32c-16.3,11.5-29.5,0.7-48.6,11c-16.2,8.7-12.6,19.7-28.2,33.2c-22.7,19.7-63.8,25.7-79.9,9.7
+                              c-15.2-15.1,0.3-41.7-16.6-54.9C63,186,49.7,196.7,37.5,186z  "></animate>
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div>
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                About us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>The Minds Behind Your</div>
+                                <div> Brand’s Success</div>
+                            </h2>
+                            <div class="space16"></div>
+                            <p>At the heart of our agency is a passion for creativity and a relentless drive to push
+                                boundaries. We are a team of thinkers, dreamers, and doers who specialize in crafting
+                                unique strategies bring brands.</p>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="about-icons">
+                                        <div class="icons">
+                                            <img src="https://seoc-html-v2.vercel.app/assets/img/icons/about1-h13.svg"
+                                                alt="">
+                                        </div>
+                                        <a href="about.html">Our Story Creative Innovation</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="about-icons">
+                                        <div class="icons">
+                                            <img src="https://seoc-html-v2.vercel.app/assets/img/icons/about2-h13.svg"
+                                                alt="">
+                                        </div>
+                                        <a href="about.html">Driven Creativity Focused </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="space24"></div>
+                            <p>Our mission is simple: to help brands stand in a crowded market &amp; connect with their
+                                audience in meaningful, lasting ways. We’re not just an agency.</p>
+                            <div class="space16"></div>
+                            <div>
+                                <a href="contact.html" class="header-btn">
+                                    Get Free Quote
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-sec py-5">
+        <div class="container">
+            <div class="service-header">
+                <div class="heading">
+                    <h5 class="sub-title">
+                        <img src="/assets/image/logo_1.png" alt="logo">
+                        About us
+                    </h5>
+                    <div class="space16"></div>
+                    <h2>
+                        <div>Tailored Solutions For</div>
+                        <div>Every Brand</div>
+                    </h2>
+                </div>
+                <div>
+                    <a href="service.html" class="header-btn">
+                        View All Services
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="space24"></div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="service-box">
+                        <div class="icons">
+                            <img src="/assets/image/icons/service-icon.svg" alt="service">
+                        </div>
+                        <div class="space32"></div>
+                        <div class="content-area">
+                            <a href="#" class="head">Advertising Campaign Creation</a>
+                            <div class="space16"></div>
+                            <p>Our agency offers a comprehensive range of services designed to elevate your brand and
+                                maximize its impact. From Brand Strategy</p>
+                            <div class="space24"></div>
+                            <a href="#" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            <h2 class="number">01</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-box">
+                        <div class="icons">
+                            <img src="/assets/image/icons/service-icon.svg" alt="service">
+                        </div>
+                        <div class="space32"></div>
+                        <div class="content-area">
+                            <a href="#" class="head">Brand Strategy & Development</a>
+                            <div class="space16"></div>
+                            <p>Our agency offers a comprehensive range of services designed to elevate your brand and
+                                maximize its impact. From Brand Strategy</p>
+                            <div class="space24"></div>
+                            <a href="#" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            <h2 class="number">02</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-box">
+                        <div class="icons">
+                            <img src="/assets/image/icons/service-icon.svg" alt="service">
+                        </div>
+                        <div class="space32"></div>
+                        <div class="content-area">
+                            <a href="#" class="head">Targeted Media Buying & Planning</a>
+                            <div class="space16"></div>
+                            <p>Whether you need targeted social media campaigns, eye-catching visuals, or data-driven
+                                performance optimization.</p>
+                            <div class="space24"></div>
+                            <a href="#" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            <h2 class="number">03</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-box">
+                        <div class="icons">
+                            <img src="/assets/image/icons/service-icon.svg" alt="service">
+                        </div>
+                        <div class="space32"></div>
+                        <div class="content-area">
+                            <a href="#" class="head">Graphic Design & Visual Branding</a>
+                            <div class="space16"></div>
+                            <p>Each service is tailored meet your specific goals, ensuring that your brand stands out,
+                                engages, and drives measurable results</p>
+                            <div class="space24"></div>
+                            <a href="#" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            <h2 class="number">04</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-box">
+                        <div class="icons">
+                            <img src="/assets/image/icons/service-icon.svg" alt="service">
+                        </div>
+                        <div class="space32"></div>
+                        <div class="content-area">
+                            <a href="#" class="head">Influencer Marketing Partnerships</a>
+                            <div class="space16"></div>
+                            <p>Whether you need targeted social media campaigns, eye-catching visuals, or data-driven
+                                performance optimization.</p>
+                            <div class="space24"></div>
+                            <a href="#" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            <h2 class="number">05</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-box">
+                        <div class="icons">
+                            <img src="/assets/image/icons/service-icon.svg" alt="service">
+                        </div>
+                        <div class="space32"></div>
+                        <div class="content-area">
+                            <a href="#" class="head">Video Production & Animation</a>
+                            <div class="space16"></div>
+                            <p>Our agency offers a comprehensive range of services designed to elevate your brand and
+                                maximize its impact. From Brand Strategy</p>
+                            <div class="space24"></div>
+                            <a href="#" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            <h2 class="number">06</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-sec py-5">
+        <div class="container">
+            <div class="slider-header">
+                <div class="heading">
+                    <h5 class="sub-title text-white">
+                        <img src="/assets/image/logo_1.png" alt="logo">
+                        Testimonials
+                    </h5>
+                    <div class="space16"></div>
+                    <h2 class="text-white">
+                        <div>Success Stories from</div>
+                        <div>Our Partners</div>
+                    </h2>
+                </div>
+                <div class="swiper-nav">
+                    <div class="swiper-button-prev custom-prev"></div>
+                    <div class="swiper-button-next custom-next"></div>
+                </div>
+            </div>
+            <div class="space24"></div>
+            <div class="swiper testimonialSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <ul class="stars">
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                            <div class="space16"></div>
+                            <p>
+                                Our clients consistently commend us for our ability
+                                to turn ambitious ideas into successful campaigns.
+                                Their feedback highlights dedication to understanding
+                                their unique needs and delivering exceptional results.
+                            </p>
+                            <div class="space24"></div>
+                            <div class="client-box">
+                                <div class="name-text">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="client">
+                                    <div class="content">
+                                        <a href="#">Arturo Reynolds</a>
+                                        <div class="space12"></div>
+                                        <p>Company Owner</p>
+                                    </div>
+                                </div>
+
+                                <div class="quote-icon">❞</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <ul class="stars">
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                            <div class="space16"></div>
+                            <p>
+                                Our clients consistently commend us for our ability
+                                to turn ambitious ideas into successful campaigns.
+                                Their feedback highlights dedication to understanding
+                                their unique needs and delivering exceptional results.
+                            </p>
+                            <div class="space24"></div>
+                            <div class="client-box">
+                                <div class="name-text">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="client">
+                                    <div class="content">
+                                        <a href="#">Arturo Reynolds</a>
+                                        <div class="space12"></div>
+                                        <p>Company Owner</p>
+                                    </div>
+                                </div>
+
+                                <div class="quote-icon">❞</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <ul class="stars">
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                            <div class="space16"></div>
+                            <p>
+                                Our clients consistently commend us for our ability
+                                to turn ambitious ideas into successful campaigns.
+                                Their feedback highlights dedication to understanding
+                                their unique needs and delivering exceptional results.
+                            </p>
+                            <div class="space24"></div>
+                            <div class="client-box">
+                                <div class="name-text">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="client">
+                                    <div class="content">
+                                        <a href="#">Arturo Reynolds</a>
+                                        <div class="space12"></div>
+                                        <p>Company Owner</p>
+                                    </div>
+                                </div>
+
+                                <div class="quote-icon">❞</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="others-sec py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="others-header">
+                        <div class="heading">
+                            <h2 class="text-white">
+                                <div>All Your Client's</div>
+                                <div>Marketing Data in One Place</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p class="text-white">Marketing moves fast, and so do we. With 75+ marketing integration and new
+                            releases
+                            each month, we’ll keep you up- to-date with all your client’s data in one place.</p>
+                        <div class="space32"></div>
+                        <div>
+                            <a href="contact.html" class="header-btn">
+                                Get A Free Proposal <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-6 mt-4 mt-md-0">
+                    <div class="row gy-3">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/instagram.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Instagram Ads</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/facebook.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Facebook Ads</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/browser.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Google Search Console</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/business.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Google Business Profile</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/google-analytics.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Google Analytics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/shopify.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Shopify Ads</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/social.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Amazon Ads</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/adwords.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Google Ads</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="text-center">
+                                    <img src="/assets/image/icons/youtube.png" alt="">
+                                    <div class="space16"></div>
+                                    <p>Youtube Ads</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Blog & News
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Agency Insights: Trends,</div>
+                                <div>Tips & More</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space24"></div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-circle-user"></i>
+                                    Kapil Dev
+                                </a>
+                            </li>
+                            <li class="m-0">
+                                <a href="#">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    12 Feb 2024
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="space24"></div>
+                        <div class="blog-img image-anime">
+                            <img src="/assets/image/resource/blog-img1-h13.png" alt="blog">
+                        </div>
+                        <div class="space24"></div>
+                        <div class="blog-content">
+                            <a href="#">Unleashing Creativity: The Art and Science of Effective Advertising</a>
+                            <div class="space16"></div>
+                            <p>t’s a delicate balance &amp; science, combining creative vision with data-driven
+                                strategy.</p>
+                            <div class="space16"></div>
+                            <a href="#" class="readmore">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-circle-user"></i>
+                                    Kapil Dev
+                                </a>
+                            </li>
+                            <li class="m-0">
+                                <a href="#">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    12 Feb 2024
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="space24"></div>
+                        <div class="blog-img image-anime">
+                            <img src="/assets/image/resource/blog-img1-h13.png" alt="blog">
+                        </div>
+                        <div class="space24"></div>
+                        <div class="blog-content">
+                            <a href="#">Unleashing Creativity: The Art and Science of Effective Advertising</a>
+                            <div class="space16"></div>
+                            <p>t’s a delicate balance &amp; science, combining creative vision with data-driven
+                                strategy.</p>
+                            <div class="space16"></div>
+                            <a href="#" class="readmore">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-card">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-circle-user"></i>
+                                    Kapil Dev
+                                </a>
+                            </li>
+                            <li class="m-0">
+                                <a href="#">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    12 Feb 2024
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="space24"></div>
+                        <div class="blog-img image-anime">
+                            <img src="/assets/image/resource/blog-img1-h13.png" alt="blog">
+                        </div>
+                        <div class="space24"></div>
+                        <div class="blog-content">
+                            <a href="#">Unleashing Creativity: The Art and Science of Effective Advertising</a>
+                            <div class="space16"></div>
+                            <p>t’s a delicate balance &amp; science, combining creative vision with data-driven
+                                strategy.</p>
+                            <div class="space16"></div>
+                            <a href="#" class="readmore">
+                                Learn More
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-banner">
+                        <img src="/assets/image/background/Realx.svg" alt="contact" class="">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6">
+                    <div class="contact-header">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Contact Us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Get Free</div>
+                                <div>SEO Analysis</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Make your business rank higher on google find out in one click & get a detailed SEO Web Audit
+                            Report.</p>
+                        <form action="">
+                            <div class="row gy-3">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <textarea name="" id="" rows="4" placeholder="Enter Your Message"></textarea>
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <button class="header-btn">Get Started Today
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-sec py-5">
+        <img src="/assets/image/background/cta13-bg1.png" alt="background" class="cta13-bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="brand-header text-center">
+                        <div class="heading">
+                            <h2 class="text-white">
+                                <div>Take Your Brand To The Next Level!</div>
+                                <div>To Begin Your Success Story.</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Ready to elevate your brand and achieve exceptional results? Our team <br> of creative
+                            experts is
+                            here to turn your vision into reality. </p>
+                        <div class="space40"></div>
+                        <div class="btn-area">
+                            <a href="contact.html" class="brand-btn">Get Started Today
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="contact.html" class="brand-btn-outline ms-3">Request a Consultation
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-logo">
+                        <img src="/assets/image/logo.png" alt="logo">
+                        <p>By optimizing content, leveraging relevant keywords, and adhering to best practices,
+                            businesses can secure prominent position (SEO)</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-content1">
+                        <h3>About Link</h3>
+                        <ul>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-content2">
+                        <h3>Get in touch</h3>
+                        <ul>
+                            <li>
+                                <a href="mailto">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>support@indbharatfirst.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span> Plot No – 12,(SCR) 2nd Floor, <br>Kharvel Nagar, Unit – 3, <br>Behind BDA
+                                        Office,
+                                        751001</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+91 9090921515</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content3">
+                        <h3>Subscribe Our Newsletter</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Enter Your email">
+                            <div class="space16"></div>
+                            <button class="header-btn w-100"> Subscribe
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="space50 d-lg-block d-none"></div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <div class="pera">
+                            <p>ⓒCopyright 2024 SEOC . All rights reserved</p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap CDN Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="/assets/script/script.js"></script>
+
+</body>
+
+</html>

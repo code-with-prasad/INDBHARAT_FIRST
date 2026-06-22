@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Fontawsome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- External CSS Link  -->
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Navbar  -->
+    <div class="py-2 border-bottom" style="background-color: transparent;">
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-black"></i> <a href="mailto:support@indbharatfirst.com"
+                            class="text-black text-decoration-none">support@indbharatfirst.com</a></span>
+                    <span><i class="fa-solid fa-phone text-black"></i> <a href="tel:7760776677"
+                            class="text-black text-decoration-none">+91 9090921515</a></span>
+                </div>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-black"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube text-black"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar   -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/index.html" class="nav__logo">
+                    <img src="/assets/image/logo.png" alt="logo">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-x nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="/index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html" class="nav__link">About US</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Services<i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="seo.html" class="dropdown__link">
+                                                Search Engine Optimization</a>
+                                        </li>
+                                        <li>
+                                            <a href="/social-media.html" class="dropdown__link">
+                                                Social Media Marketing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/ppc.html" class="dropdown__link">
+                                                PPC & Performance Ads
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/content.html" class="dropdown__link">Content Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="email.html" class="dropdown__link">Email Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/web.html" class="dropdown__link">Web Design & Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/video.html" class="dropdown__link">Video Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/brand.html" class="dropdown__link">Brand Strategy & Design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">
+                            <button class="header-btn">Get Free Quote <i class="fa-solid fa-arrow-right"></i></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="breadcrumb-sec">
+        <!-- Floating Social Icons  -->
+        <div class="floating-icons">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+            <span><i class="fab fa-youtube"></i></span>
+            <span><i class="fab fa-google"></i></span>
+            <span><i class="fab fa-whatsapp"></i></span>
+            <span><i class="fas fa-envelope"></i></span>
+            <span><i class="fas fa-bullhorn"></i></span>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="breadcrumb-heading text-center">
+                        <h1>Brand Strategy & Design</h1>
+                        <div>
+                            <a href="index.html">Home</a>
+                            <i class="fa-solid fa-angle-right text-white"></i>
+                            <span class="text-white">Brand Strategy & Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="seo-sec py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="pe-lg-4">
+                        <img src="/assets/image/resource/img9.svg" alt="Brand Strategy & Design"
+                            class="w-100 img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="seo-content mt-4 mt-lg-0">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Brand Strategy
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Shape Your Brand's Identity</div>
+                                <div>& Drive Market Value</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Your brand is more than just a logo—it's the emotional connection you build with your
+                            customers. We combine deep strategic thinking with stellar visual design to create brands
+                            that stand out in crowded markets.</p>
+                        <p>Whether you are launching a new startup or redefining an established corporate image, we help
+                            you uncover your core brand values, craft a unique positioning strategy, and build a unified
+                            visual system that tells your story with impact.</p>
+                        <div class="space24"></div>
+                        <a href="#brand-contact" class="header-btn">
+                            Get Free Brand Audit
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section class="brandService-sec py-5" style="background-color: #F8F6FC;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Capabilities
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Our Brand Identity Solutions</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space40"></div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand-card-item">
+                        <div class="icon-box" style="background: rgba(46, 204, 113, 0.1);">
+                            <img src="/assets/image/icons/icon5.png" alt="Brand Positioning" style="width: 40px;">
+                        </div>
+                        <h3>Brand Strategy & Positioning</h3>
+                        <p>Define your brand purpose, value proposition, messaging architecture, and market positioning
+                            guidelines to align your corporate team.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand-card-item">
+                        <div class="icon-box" style="background: rgba(52, 152, 219, 0.1);">
+                            <img src="/assets/image/icons/icon6.png" alt="Logo Design" style="width: 40px;">
+                        </div>
+                        <h3>Logo & Visual Identity</h3>
+                        <p>Craft custom, memorable logos, curated typography, and harmonic color palettes that
+                            communicate your brand values at a single glance.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand-card-item">
+                        <div class="icon-box" style="background: rgba(241, 196, 15, 0.1);">
+                            <img src="/assets/image/icons/icon7.png" alt="Style Guide" style="width: 40px;">
+                        </div>
+                        <h3>Brand Style Guidelines</h3>
+                        <p>Ensure long-term visual consistency across channels with clear rules on logo spacing,
+                            co-branding, imagery, typography, and voice.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand-card-item">
+                        <div class="icon-box" style="background: rgba(155, 89, 182, 0.1);">
+                            <img src="/assets/image/icons/icon8.png" alt="Packaging" style="width: 40px;">
+                        </div>
+                        <h3>Packaging & Product Design</h3>
+                        <p>Capture customer eyes on shelves with premium, tactile packaging design, labels, box layouts,
+                            and materials configuration guidelines.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand-card-item">
+                        <div class="icon-box" style="background: rgba(230, 126, 34, 0.1);">
+                            <img src="/assets/image/icons/icon9.png" alt="Corporate Assets" style="width: 40px;">
+                        </div>
+                        <h3>Collateral & Print Marketing</h3>
+                        <p>High-end corporate stationery design including business cards, letterheads, brochures,
+                            presentation decks, and brand templates.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="brand-card-item">
+                        <div class="icon-box" style="background: rgba(233, 30, 99, 0.1);">
+                            <img src="/assets/image/icons/icon10.png" alt="Digital Branding" style="width: 40px;">
+                        </div>
+                        <h3>Digital Assets & Web Identity</h3>
+                        <p>Consistent branding for your online ecosystem including website graphics, banners, app
+                            interfaces, and social templates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Our Process
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Our Brand Creation Workflow</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space40"></div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 order-2 order-lg-1">
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle green">01</div>
+                        <div class="space16"></div>
+                        <h4>Discovery Workshop & Audit</h4>
+                        <p>We research your business objectives, industry trends, and target personas to build a solid
+                            strategic foundation.</p>
+                    </div>
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle blue">02</div>
+                        <div class="space16"></div>
+                        <h4>Strategy & Positioning Roadmap</h4>
+                        <p>We define your brand tone, messaging architecture, personality attributes, and competitive
+                            market positioning statements.</p>
+                    </div>
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle yellow">03</div>
+                        <div class="space16"></div>
+                        <h4>Logo Concepts & Moodboards</h4>
+                        <p>Our design team creates various initial logo concept options, color systems, and typographic
+                            pairings for review.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block order-1 order-lg-2">
+                    <div class="center-image text-center">
+                        <img src="/assets/image/resource/img15.svg" alt="Process illustration" class="w-100 img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 order-3 order-lg-3">
+                    <div class="feature-box">
+                        <div class="icon-circle purple">04</div>
+                        <div class="space16"></div>
+                        <h4>Fine-Tuning & Asset Finalization</h4>
+                        <p>We iterate on your selected direction, refining grid measurements, kerning details, and color
+                            specifications.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle orange">05</div>
+                        <div class="space16"></div>
+                        <h4>Collateral & Stationery Layouts</h4>
+                        <p>We expand the visual system across business cards, envelopes, presentation templates,
+                            packaging, and digital channels.</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle pink">06</div>
+                        <div class="space16"></div>
+                        <h4>Brand Guidelines Delivery</h4>
+                        <p>We compile and package your complete brand handbook along with high-res source files in all
+                            vector and web formats.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="faq-sec py-5" style="background-color: #f8f6fc;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                FAQ's
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Frequently Asked Questions</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space16"></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                    What is content marketing?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Content marketing is a strategic marketing approach focused on creating and
+                                    distributing valuable, relevant, and consistent content to attract and retain a
+                                    clearly defined audience—and, ultimately, to drive profitable customer action.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    How does content marketing help my SEO?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Search engines like Google rank websites based on relevance and authority. Writing
+                                    high-quality, comprehensive content answers user search intent, targets key SEO
+                                    keywords, attracts backlinks, and keeps visitors on your site longer—all of which
+                                    boost search rankings.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    How long does it take to see results?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Content marketing is a long-term compound strategy. While social media posts and
+                                    email campaigns yield immediate engagement, organic search traffic and authority
+                                    gains typically build up significantly over 3 to 6 months of consistent publishing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    What types of content do you write?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">We write blog articles, website copy, sales landing pages,
+                                    newsletter campaigns,
+                                    search-optimized product descriptions, social media captions, LinkedIn posts,
+                                    whitepapers, templates, and ebooks.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    Do we own the rights to the content?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes! Once any content project is completed and paid for, all intellectual property
+                                    rights belong entirely to your company. You can publish, distribute, print, or
+                                    repurpose the content in any format you like.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                    How do you ensure content matches our brand voice?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Before starting execution, we run discovery audits to capture your brand guidelines,
+                                    customer personas, tone style, and preferred vocabulary. We then outline copy
+                                    concepts and get your feedback to calibrate the correct brand voice.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                    Which social media platforms should my business use?
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    The best platforms depend on your target audience. Popular options include Facebook,
+                                    Instagram, LinkedIn, YouTube, Twitter (X), and Pinterest.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                    What is Social Media Marketing?
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Social Media Marketing involves creating and sharing content on social platforms to
+                                    increase brand awareness, engagement, website traffic, and sales.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                                    Can digital marketing help small businesses?
+                                </button>
+                            </h2>
+                            <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes. Digital marketing is highly effective for small businesses because it provides
+                                    targeted marketing opportunities within a flexible budget.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                                    What is Local SEO?
+                                </button>
+                            </h2>
+                            <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Local SEO helps businesses appear in local search results, Google Maps, and
+                                    location-based searches, making it easier for nearby customers to find them.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-banner">
+                        <img src="/assets/image/background/Realx.svg" alt="contact" class="">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6">
+                    <div class="contact-header">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Contact Us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Get Free</div>
+                                <div>SEO Analysis</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Make your business rank higher on google find out in one click & get a detailed SEO Web Audit
+                            Report.</p>
+                        <form action="">
+                            <div class="row gy-3">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <textarea name="" id="" rows="4" placeholder="Enter Your Message"></textarea>
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <button class="header-btn">Get Started Today
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-sec py-5">
+        <img src="/assets/image/background/cta13-bg1.png" alt="background" class="cta13-bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="brand-header text-center">
+                        <div class="heading">
+                            <h2 class="text-white">
+                                <div>Ready to Grow Your</div>
+                                <div>Business?</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Let Indbharat First help you build a strong social media presence.</p>
+                        <div class="space40"></div>
+                        <div class="btn-area">
+                            <a href="contact.html" class="brand-btn">Get Started Today
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="contact.html" class="brand-btn-outline ms-3">Request a Consultation
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-logo">
+                        <img src="/assets/image/logo.png" alt="logo">
+                        <p>By optimizing content, leveraging relevant keywords, and adhering to best practices,
+                            businesses can secure prominent position (SEO)</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-content1">
+                        <h3>About Link</h3>
+                        <ul>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-content2">
+                        <h3>Get in touch</h3>
+                        <ul>
+                            <li>
+                                <a href="mailto">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>support@indbharatfirst.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span> Plot No – 12,(SCR) 2nd Floor, <br>Kharvel Nagar, Unit – 3, <br>Behind BDA
+                                        Office,
+                                        751001</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+91 9090921515</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content3">
+                        <h3>Subscribe Our Newsletter</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Enter Your email">
+                            <div class="space16"></div>
+                            <button class="header-btn w-100"> Subscribe
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="space50 d-lg-block d-none"></div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <div class="pera">
+                            <p>ⓒCopyright 2024 SEOC . All rights reserved</p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap CDN Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="/assets/script/script.js"></script>
+
+</body>
+
+</html>

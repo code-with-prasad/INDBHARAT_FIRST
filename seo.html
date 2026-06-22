@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Fontawsome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- External CSS Link  -->
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Navbar  -->
+    <div class="py-2 border-bottom" style="background-color: transparent;">
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-black"></i> <a href="mailto:support@indbharatfirst.com"
+                            class="text-black text-decoration-none">support@indbharatfirst.com</a></span>
+                    <span><i class="fa-solid fa-phone text-black"></i> <a href="tel:7760776677"
+                            class="text-black text-decoration-none">+91 9090921515</a></span>
+                </div>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-black"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube text-black"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar   -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/index.html" class="nav__logo">
+                    <img src="/assets/image/logo.png" alt="logo">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-x nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="/index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html" class="nav__link">About US</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Services<i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="seo.html" class="dropdown__link">
+                                                Search Engine Optimization</a>
+                                        </li>
+                                        <li>
+                                            <a href="/social-media.html" class="dropdown__link">
+                                                Social Media Marketing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/ppc.html" class="dropdown__link">
+                                                PPC & Performance Ads
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/content.html" class="dropdown__link">Content Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="email.html" class="dropdown__link">Email Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/web.html" class="dropdown__link">Web Design & Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/video.html" class="dropdown__link">Video Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/brand.html" class="dropdown__link">Brand Strategy & Design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">
+                            <button class="header-btn">Get Free Quote <i class="fa-solid fa-arrow-right"></i></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="breadcrumb-sec">
+        <!-- Floating Social Icons  -->
+        <div class="floating-icons">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+            <span><i class="fab fa-youtube"></i></span>
+            <span><i class="fab fa-google"></i></span>
+            <span><i class="fab fa-whatsapp"></i></span>
+            <span><i class="fas fa-envelope"></i></span>
+            <span><i class="fas fa-bullhorn"></i></span>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="breadcrumb-heading text-center">
+                        <h1>Search Engine Optimization</h1>
+                        <div>
+                            <a href="index.html">Home</a>
+                            <i class="fa-solid fa-angle-right text-white"></i>
+                            <span class="text-white">SEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seo-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="/assets/image/resource/img10.svg" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="seo-content">
+                        <h4>The Best SEO Company for your Business: Indbharat First</h4>
+                        <h2>Search Engine Optimization</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit ipsam eius
+                            delectus vero odio ea deleniti ullam similique molestias quod doloribus possimus fuga, cum
+                            laborum veniam quidem? Mollitia, dolores!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a delectus dolores modi
+                            expedita. Atque odit aliquam neque a, reprehenderit dolorem quibusdam nihil magnam at.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed deleniti, ad hic maxime
+                            expedita placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe
+                            asperiores quidem, praesentium eos tempora?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Values
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Boost Your Organic Ranking</div>
+                                <div>With Best SEO Expert in India</div>
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nostrum aspernatur sint
+                                placeat quis labore repellat, quas ratione reiciendis vel, laboriosam temporibus maiores
+                                tempore a asperiores veniam doloribus quam iure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space32"></div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="seo-box">
+                        <img src="/assets/image/icons/icon5.png" class="" alt="">
+                        <div class="space16"></div>
+                        <div>
+                            <a href="service1.html">Local SEO</a>
+                            <div class="space16"></div>
+                            <p>Enhance your online visibility &amp; drive organic traffic with our advanced SEO
+                                techniques.
+                                We optimize your website to rank higher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="seo-box">
+                        <img src="/assets/image/icons/icon6.png" class="" alt="">
+                        <div class="space16"></div>
+                        <div>
+                            <a href="service1.html">National SEO</a>
+                            <div class="space16"></div>
+                            <p>Enhance your online visibility &amp; drive organic traffic with our advanced SEO
+                                techniques.
+                                We optimize your website to rank higher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="seo-box">
+                        <img src="/assets/image/icons/icon7.png" class="" alt="">
+                        <div class="space16"></div>
+                        <div>
+                            <a href="service1.html">Enterprise SEO</a>
+                            <div class="space16"></div>
+                            <p>Enhance your online visibility &amp; drive organic traffic with our advanced SEO
+                                techniques.
+                                We optimize your website to rank higher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="seo-box">
+                        <img src="/assets/image/icons/icon8.png" class="" alt="">
+                        <div class="space16"></div>
+                        <div>
+                            <a href="service1.html">Reporting & Analysis</a>
+                            <div class="space16"></div>
+                            <p>Enhance your online visibility &amp; drive organic traffic with our advanced SEO
+                                techniques.
+                                We optimize your website to rank higher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="seo-box">
+                        <img src="/assets/image/icons/icon9.png" class="" alt="">
+                        <div class="space16"></div>
+                        <div>
+                            <a href="service1.html">Online Media Management</a>
+                            <div class="space16"></div>
+                            <p>Enhance your online visibility &amp; drive organic traffic with our advanced SEO
+                                techniques.
+                                We optimize your website to rank higher.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="seo-box">
+                        <img src="/assets/image/icons/icon10.png" class="" alt="">
+                        <div class="space16"></div>
+                        <div>
+                            <a href="service1.html">Penalty Recovery</a>
+                            <div class="space16"></div>
+                            <p>Enhance your online visibility &amp; drive organic traffic with our advanced SEO
+                                techniques.
+                                We optimize your website to rank higher.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle green">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4>SEO Consultancy</h4>
+                        <p>
+                            For startups and growing businesses, an online specialist
+                            can develop a digital marketing plan to help you grow.
+                        </p>
+                    </div>
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle blue">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4>SEO Consultancy</h4>
+                        <p>
+                            For startups and growing businesses, an online specialist
+                            can develop a digital marketing plan to help you grow.
+                        </p>
+                    </div>
+                    <div class="feature-box text-lg-end">
+                        <div class="icon-circle yellow">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4>SEO Consultancy</h4>
+                        <p>
+                            For startups and growing businesses, an online specialist
+                            can develop a digital marketing plan to help you grow.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="center-img">
+                        <img src="/assets/image/resource/img12.svg" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature-box">
+                        <div class="icon-circle purple">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4>SEO Consultancy</h4>
+                        <p>
+                            For startups and growing businesses, an online specialist
+                            can develop a digital marketing plan to help you grow.
+                        </p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle orange">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4>SEO Consultancy</h4>
+                        <p>
+                            For startups and growing businesses, an online specialist
+                            can develop a digital marketing plan to help you grow.
+                        </p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="icon-circle pink">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4>SEO Consultancy</h4>
+                        <p>
+                            For startups and growing businesses, an online specialist
+                            can develop a digital marketing plan to help you grow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-sec py-5" style="background-color: #f8f6fc;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                FAQ's
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Frequently Asked Questions</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space16"></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                                    What is digital marketing?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Digital marketing is the promotion of products, services, or brands through online
+                                    channels such as search engines, social media, email, websites, and online
+                                    advertising to reach potential customers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    Why is digital marketing important for businesses?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Digital marketing helps businesses increase brand awareness, generate leads, engage
+                                    with customers, and achieve measurable growth at a cost-effective rate.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    What digital marketing services does Indbharat First offer?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Indbharat First offers SEO, Social Media Marketing, Google Ads, Meta Ads, Content
+                                    Marketing, Website Development, Email Marketing, Local SEO, and Online Reputation
+                                    Management services.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    How can SEO help my business?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">SEO (Search Engine Optimization) improves your website's
+                                    visibility on search engines like Google, helping you attract more organic traffic
+                                    and potential customers.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    What is the difference between SEO and Google Ads?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    SEO focuses on improving organic search rankings over time, while Google Ads
+                                    provides immediate visibility through paid advertising campaigns.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                                    How long does it take to see results from SEO?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    SEO is a long-term strategy. Depending on competition and website condition,
+                                    noticeable results typically appear within 3 to 6 months.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                                    Which social media platforms should my business use?
+                                </button>
+                            </h2>
+                            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    The best platforms depend on your target audience. Popular options include Facebook,
+                                    Instagram, LinkedIn, YouTube, Twitter (X), and Pinterest.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                                    What is Social Media Marketing?
+                                </button>
+                            </h2>
+                            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Social Media Marketing involves creating and sharing content on social platforms to
+                                    increase brand awareness, engagement, website traffic, and sales.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9">
+                                    Can digital marketing help small businesses?
+                                </button>
+                            </h2>
+                            <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Yes. Digital marketing is highly effective for small businesses because it provides
+                                    targeted marketing opportunities within a flexible budget.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                                    What is Local SEO?
+                                </button>
+                            </h2>
+                            <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Local SEO helps businesses appear in local search results, Google Maps, and
+                                    location-based searches, making it easier for nearby customers to find them.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="contact-banner">
+                        <img src="/assets/image/background/Realx.svg" alt="contact" class="">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6">
+                    <div class="contact-header">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Contact Us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Get Free</div>
+                                <div>SEO Analysis</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Make your business rank higher on google find out in one click & get a detailed SEO Web Audit
+                            Report.</p>
+                        <form action="">
+                            <div class="row gy-3">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <textarea name="" id="" rows="4" placeholder="Enter Your Message"></textarea>
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <button class="header-btn">Get Started Today
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-sec py-5">
+        <img src="/assets/image/background/cta13-bg1.png" alt="background" class="cta13-bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="brand-header text-center">
+                        <div class="heading">
+                            <h2 class="text-white">
+                                <div>Ready To Take Your SEO To</div>
+                                <div>The Next Level</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Effective SEO strategies not only elevate a website's visibility but also drive <br>
+                            targeted traffic, enhance user experience,</p>
+                        <div class="space40"></div>
+                        <div class="btn-area">
+                            <a href="contact.html" class="brand-btn">Get Started Today
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="contact.html" class="brand-btn-outline ms-3">Request a Consultation
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-logo">
+                        <img src="/assets/image/logo.png" alt="logo">
+                        <p>By optimizing content, leveraging relevant keywords, and adhering to best practices,
+                            businesses can secure prominent position (SEO)</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-content1">
+                        <h3>About Link</h3>
+                        <ul>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-content2">
+                        <h3>Get in touch</h3>
+                        <ul>
+                            <li>
+                                <a href="mailto">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>support@indbharatfirst.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span> Plot No – 12,(SCR) 2nd Floor, <br>Kharvel Nagar, Unit – 3, <br>Behind BDA
+                                        Office,
+                                        751001</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+91 9090921515</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content3">
+                        <h3>Subscribe Our Newsletter</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Enter Your email">
+                            <div class="space16"></div>
+                            <button class="header-btn w-100"> Subscribe
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="space50 d-lg-block d-none"></div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <div class="pera">
+                            <p>ⓒCopyright 2024 SEOC . All rights reserved</p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap CDN Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="/assets/script/script.js"></script>
+
+</body>
+
+</html>

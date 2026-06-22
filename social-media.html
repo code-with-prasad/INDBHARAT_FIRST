@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN Links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Fontawsome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <!-- External CSS Link  -->
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Navbar  -->
+    <div class="py-2 border-bottom" style="background-color: transparent;">
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-black"></i> <a href="mailto:support@indbharatfirst.com"
+                            class="text-black text-decoration-none">support@indbharatfirst.com</a></span>
+                    <span><i class="fa-solid fa-phone text-black"></i> <a href="tel:7760776677"
+                            class="text-black text-decoration-none">+91 9090921515</a></span>
+                </div>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-black"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram text-black"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube text-black"></i></a></li>
+                <!-- <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar   -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/index.html" class="nav__logo">
+                    <img src="/assets/image/logo.png" alt="logo">
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-x nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li>
+                        <a href="/index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html" class="nav__link">About US</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Services<i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="seo.html" class="dropdown__link">
+                                                Search Engine Optimization</a>
+                                        </li>
+                                        <li>
+                                            <a href="/social-media.html" class="dropdown__link">
+                                                Social Media Marketing
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/ppc.html" class="dropdown__link">
+                                                PPC & Performance Ads
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/content.html" class="dropdown__link">Content Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="email.html" class="dropdown__link">Email Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/web.html" class="dropdown__link">Web Design & Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/video.html" class="dropdown__link">Video Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="/brand.html" class="dropdown__link">Brand Strategy & Design</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">
+                            <button class="header-btn">Get Free Quote <i class="fa-solid fa-arrow-right"></i></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="breadcrumb-sec">
+        <!-- Floating Social Icons  -->
+        <div class="floating-icons">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin-in"></i></span>
+            <span><i class="fab fa-youtube"></i></span>
+            <span><i class="fab fa-google"></i></span>
+            <span><i class="fab fa-whatsapp"></i></span>
+            <span><i class="fas fa-envelope"></i></span>
+            <span><i class="fas fa-bullhorn"></i></span>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="breadcrumb-heading text-center">
+                        <h1>Social Media Marketing</h1>
+                        <div>
+                            <a href="index.html">Home</a>
+                            <i class="fa-solid fa-angle-right text-white"></i>
+                            <span class="text-white">About Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seo-sec pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="/assets/image/resource/img11.png" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="seo-content">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Social Media Marketing
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Social Media Marketing</div>
+                            </h2>
+                        </div>
+                        <p>Welcome to SEOC’s Social Media Marketing Services. Our team specializes in crafting and
+                            executing social media strategies that elevate your brand, engage your audience, and drive
+                            measurable results. Harness the power of social media to grow your business and connect with
+                            customers on a deeper level.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a delectus dolores modi
+                            expedita. Atque odit aliquam neque a, reprehenderit dolorem quibusdam nihil magnam at.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed deleniti, ad hic maxime
+                            expedita placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe
+                            asperiores quidem, praesentium eos tempora?</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima magnam delectus repellendus
+                            doloremque voluptatibus aliquam, hic fuga asperiores unde aspernatur reiciendis maiores
+                            deleniti cupiditate consequuntur a iusto ipsa. Labore, quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="socialmedia-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Our Service
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Social Media Service</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space32"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex">
+                        <div class="socialMedia-card box1">
+                            <a href="service1.html">Content Creation</a>
+                            <div class="space32"></div>
+                            <img src="/assets/image/icons/icon11.svg" alt="">
+                            <div class="space32"></div>
+                            <p>Capture attention with creative and high-quality content including graphics, reels,
+                                videos, banners, and promotional posts designed to increase engagement and brand
+                                awareness.</p>
+                        </div>
+                        <div class="socialMedia-card box2">
+                            <a href="service1.html">Social Media Management</a>
+                            <div class="space32"></div>
+                            <img src="/assets/image/icons/icon12.svg" alt="">
+                            <div class="space32"></div>
+                            <p>We manage your social media accounts professionally by handling regular posting, audience
+                                engagement, content scheduling, and performance monitoring to keep your brand active and
+                                growing.</p>
+                        </div>
+                        <div class="socialMedia-card box3">
+                            <a href="service1.html">Paid Social Media Advertising</a>
+                            <div class="space32"></div>
+                            <img src="/assets/image/icons/icon13.svg" alt="">
+                            <div class="space32"></div>
+                            <p>Reach your ideal customers with targeted advertising campaigns on Facebook, Instagram,
+                                LinkedIn, and other platforms. We optimize ads to generate leads, traffic, and
+                                conversions.</p>
+                        </div>
+                        <div class="socialMedia-card box4">
+                            <a href="service1.html">Influencer Marketing</a>
+                            <div class="space32"></div>
+                            <img src="/assets/image/icons/icon14.svg" alt="">
+                            <div class="space32"></div>
+                            <p>Promote your brand through trusted influencers and creators to expand your reach,
+                                increase credibility, and connect with a larger audience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Our Service
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Platforms We Manage</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space32"></div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="platform-card">
+                        <img src="/assets/image/icons/facebook.png" alt="facebook">
+                        <div class="space16"></div>
+                        <h4>Facebook</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="platform-card">
+                        <img src="/assets/image/icons/instagram.png" alt="facebook">
+                        <div class="space16"></div>
+                        <h4>Instagram</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="platform-card">
+                        <img src="/assets/image/icons/linkedin.png" alt="facebook">
+                        <div class="space16"></div>
+                        <h4>LinkedIn</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="platform-card">
+                        <img src="/assets/image/icons/youtube.png" alt="facebook">
+                        <div class="space16"></div>
+                        <h4>YouTube</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="platform-card">
+                        <img src="/assets/image/icons/twitter.png" alt="facebook">
+                        <div class="space16"></div>
+                        <h4>Twitter / X</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="platform-card">
+                        <img src="/assets/image/icons/facebook.png" alt="facebook">
+                        <div class="space16"></div>
+                        <h4>Facebook</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="text-center">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Why Choose Us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Why Choose Us</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space32"></div>
+            <div class="cards-wrapper">
+                <!-- Card 1  -->
+                <div class="service-card active">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200">
+                    <div class="overlay"></div>
+                    <div class="vertical-title">
+                        SEO
+                    </div>
+                    <div class="content">
+                        <h3>SEO Optimization</h3>
+                        <div class="space32"></div>
+                        <p>
+                            Improve your search engine rankings and drive
+                            organic traffic with advanced SEO strategies.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200">
+                    <div class="overlay"></div>
+                    <div class="vertical-title">
+                        Social Media
+                    </div>
+                    <div class="content">
+                        <h3>Social Media Marketing</h3>
+                        <p>
+                            Build strong brand awareness and engage your audience
+                            through powerful social media campaigns.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200">
+                    <div class="overlay"></div>
+                    <div class="vertical-title">
+                        PPC Advertising
+                    </div>
+                    <div class="content">
+                        <h3>PPC Advertising</h3>
+                        <p>
+                            Generate quality leads and maximize your ROI
+                            through targeted advertising campaigns.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1200">
+                    <div class="overlay"></div>
+                    <div class="vertical-title">
+                        Content Marketing
+                    </div>
+                    <div class="content">
+                        <h3>Content Marketing</h3>
+                        <p>
+                            Create engaging content, reels, graphics,
+                            and videos that attract customers online.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200">
+                    <div class="overlay"></div>
+                    <div class="vertical-title">
+                        Website Development
+                    </div>
+                    <div class="content">
+                        <h3>Website Development</h3>
+                        <p>
+                            Build responsive, modern, and user-friendly
+                            websites optimized for performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-header">
+                        <div class="heading">
+                            <h5 class="sub-title">
+                                <img src="/assets/image/logo_1.png" alt="logo">
+                                Contact Us
+                            </h5>
+                            <div class="space16"></div>
+                            <h2>
+                                <div>Get Free</div>
+                                <div>SEO Analysis</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Make your business rank higher on google find out in one click & get a detailed SEO Web Audit
+                            Report.</p>
+                        <form action="">
+                            <div class="row gy-3">
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Enter Your Name*">
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <textarea name="" id="" rows="4" placeholder="Enter Your Message"></textarea>
+                                        <span class="text-danger d-none"></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div>
+                                        <button class="header-btn">Get Started Today
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <div class="contact-banner">
+                        <img src="/assets/image/background/Realx.svg" alt="contact" class="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-sec py-5">
+        <img src="/assets/image/background/cta13-bg1.png" alt="background" class="cta13-bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="brand-header text-center">
+                        <div class="heading">
+                            <h2 class="text-white">
+                                <div>Ready to Grow Your</div>
+                                <div>Business?</div>
+                            </h2>
+                        </div>
+                        <div class="space16"></div>
+                        <p>Let Indbharat First help you build a strong social media presence.</p>
+                        <div class="space40"></div>
+                        <div class="btn-area">
+                            <a href="contact.html" class="brand-btn">Get Started Today
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="contact.html" class="brand-btn-outline ms-3">Request a Consultation
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-logo">
+                        <img src="/assets/image/logo.png" alt="logo">
+                        <p>By optimizing content, leveraging relevant keywords, and adhering to best practices,
+                            businesses can secure prominent position (SEO)</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-content1">
+                        <h3>About Link</h3>
+                        <ul>
+                            <li><a href="#">Our Blog</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-content2">
+                        <h3>Get in touch</h3>
+                        <ul>
+                            <li>
+                                <a href="mailto">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>support@indbharatfirst.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span> Plot No – 12,(SCR) 2nd Floor, <br>Kharvel Nagar, Unit – 3, <br>Behind BDA
+                                        Office,
+                                        751001</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+91 9090921515</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-content3">
+                        <h3>Subscribe Our Newsletter</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Enter Your email">
+                            <div class="space16"></div>
+                            <button class="header-btn w-100"> Subscribe
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="space50 d-lg-block d-none"></div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <div class="pera">
+                            <p>ⓒCopyright 2024 SEOC . All rights reserved</p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap CDN Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="/assets/script/script.js"></script>
+
+</body>
+
+</html>
