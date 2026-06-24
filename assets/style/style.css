@@ -59,6 +59,7 @@ p {
     line-height: 16px;
     font-weight: 500;
     background: var(--ddd, linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%));
+    /* background: var( linear-gradient(91deg, #00A651 0.78%, #00358C 99.88%)); */
     background-clip: text;
     border-radius: 8px;
     transition: all 0.4s;
@@ -93,7 +94,10 @@ p {
     position: relative;
     border-radius: 5px;
     /* background: var(--ddd, linear-gradient(91deg, #FF0A54 0.78%, #FF6F00 99.88%)); */
-    background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%);
+    /* background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%); */
+    background: linear-gradient(135deg,
+            #00A651 0%,
+            #00358C 100%);
     border: none;
     outline: none;
     font-weight: bold;
@@ -516,10 +520,29 @@ Hero Section
     color: #5c6365;
 }
 
-.hero-sec .header-btn.btn2 {
+/* .hero-sec .header-btn.btn2 {
     background: #fff;
     color: #fd3b32;
     border: 1px solid #fd3b32;
+    margin-left: 16px;
+} */
+
+.hero-sec .header-btn.btn2 {
+    position: relative;
+    background: #fff;
+    padding: 14px 28px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-image:
+        linear-gradient(#fff, #fff),
+        linear-gradient(135deg,
+            #00A651 0%,
+            #00358C 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: #00358C;
+    font-weight: 600;
+    transition: 0.4s;
     margin-left: 16px;
 }
 
@@ -722,7 +745,10 @@ Service Section
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%);
+    /* background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%); */
+    background: linear-gradient(135deg,
+            #00A651 0%,
+            #00358C 100%);
     z-index: -1;
     transform: scaleX(0);
     transform-origin: center;
@@ -1521,7 +1547,10 @@ Mission, Vision and Values Section
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%);
+    /* background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%); */
+    background: linear-gradient(135deg,
+            #00A651 0%,
+            #00358C 100%);
     z-index: -1;
     transform: scaleX(0);
     transform-origin: center;
@@ -2285,3 +2314,77 @@ Brand Strategy & Design Page
     color: #5c6365;
     margin: 0;
 }
+
+
+
+/* .btn-1{
+    background: linear-gradient(91deg, #ff6f00 0.78%, #00358C 99.88%);
+}
+.btn-2{
+    background: linear-gradient(to right, #ff6f00, #00358C); 
+} */
+/* 
+.btn-1 {
+    background: linear-gradient(135deg,
+            #ff8800 0%,
+            #00358C 100%);
+}
+
+.btn-2 {
+    background: linear-gradient(135deg,
+            #005BFF 0%,
+            #00A6FF 100%);
+}
+
+.btn-3 {
+    background: linear-gradient(135deg,
+            #00A651 0%,
+            #00358C 100%);
+}
+
+.btn-4 {
+    background: linear-gradient(135deg,
+            #ff5e00 0%,
+            #005BFF 100%);
+}
+
+.btn-5 {
+    background: linear-gradient(135deg,
+            #071120 0%,
+            #00358C 45%,
+            #00A6FF 100%);
+}
+
+.btn-6 {
+    background: linear-gradient(135deg,
+            #00A651 0%,
+            #00A6FF 50%,
+            #00358C 100%);
+}
+
+.btn-7 {
+    background: linear-gradient(to right,
+            #071120,
+            #00358C);
+}
+
+.btn-8 {
+    background: linear-gradient(135deg,
+            #ffb347 0%,
+            #ff5e00 100%);
+}
+
+.btn-9 {
+    background: linear-gradient(135deg,
+            #ff8800 0%,
+            #005BFF 50%,
+            #00A651 100%);
+}
+
+.btn-10 {
+    background: linear-gradient(135deg,
+            rgba(0, 91, 255, 0.95),
+            rgba(0, 166, 255, 0.75));
+
+    backdrop-filter: blur(12px);
+} */
