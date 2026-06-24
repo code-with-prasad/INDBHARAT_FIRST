@@ -1310,7 +1310,8 @@ Breadcrumb Section
 ===========================================================================================================
 */
 .breadcrumb-sec {
-    background-image: url("/assets/image/background/cta-bg13.png");
+    /* background-image: url("/assets/image/background/cta-bg13.png"); */
+    background-image: url("../image/background/cta-bg13.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
