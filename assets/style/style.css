@@ -502,6 +502,10 @@ Hero Section
     max-width: 100%;
 }
 
+.hero-content {
+    margin-top: 20px;
+}
+
 .hero-content h2 {
     /* font-family: "Montserrat", sans-serif; */
     font-family: "Figtree", sans-serif;
@@ -602,7 +606,6 @@ About Section
 }
 
 .about-content h2 {
-    /* font-family: "Montserrat", sans-serif; */
     font-family: "Figtree", sans-serif;
     font-size: 44px;
     line-height: 52px;
@@ -611,7 +614,6 @@ About Section
 }
 
 .about-content p {
-    /* font-family: "Montserrat", sans-serif; */
     font-family: "Figtree", sans-serif;
     font-size: 16px;
     line-height: 26px;
@@ -2316,76 +2318,92 @@ Brand Strategy & Design Page
     margin: 0;
 }
 
-
-
-/* .btn-1{
-    background: linear-gradient(91deg, #ff6f00 0.78%, #00358C 99.88%);
-}
-.btn-2{
-    background: linear-gradient(to right, #ff6f00, #00358C); 
-} */
-/* 
-.btn-1 {
-    background: linear-gradient(135deg,
-            #ff8800 0%,
-            #00358C 100%);
+@media (max-width:1280px) {
+    .hero-sec .hero-img img {
+        margin-bottom: -50px;
+    }
 }
 
-.btn-2 {
-    background: linear-gradient(135deg,
-            #005BFF 0%,
-            #00A6FF 100%);
+@media (max-width:768px) {
+    .hero-content {
+        margin-top: 40px;
+    }
+
+    .brand-sec .cta13-bg1 {
+        display: none;
+    }
+
+    .footer-sec .footer-content1,
+    .footer-sec .footer-content2,
+    .footer-sec .footer-content3 {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    .copyright {
+        margin-top: 20px;
+    }
 }
 
-.btn-3 {
-    background: linear-gradient(135deg,
-            #00A651 0%,
-            #00358C 100%);
+@media (max-width:576px) {
+    .hero-content {
+        margin-top: 30px;
+    }
+
+    .hero-content h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .about-svg svg {
+        width: 100%;
+        height: 470px;
+    }
+
+    .btn-area {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .about-content h2 {
+        font-size: 38px;
+    }
+
+    .service-header {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .heading h2 {
+        font-size: 38px;
+    }
+
+    .footer-sec .footer-content1,
+    .footer-sec .footer-content2,
+    .footer-sec .footer-content3 {
+        padding-left: 5px;
+        margin-top: 20px;
+    }
+
+    .footer-sec .copyright {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .brand-sec .cta13-bg1 {
+        display: none;
+    }
+
+    .brand-header .btn-area .brand-btn {
+        padding: 14px 11px;
+    }
+
+    .brand-header .btn-area .brand-btn-outline {
+        padding: 14px 11px;
+    }
 }
-
-.btn-4 {
-    background: linear-gradient(135deg,
-            #ff5e00 0%,
-            #005BFF 100%);
-}
-
-.btn-5 {
-    background: linear-gradient(135deg,
-            #071120 0%,
-            #00358C 45%,
-            #00A6FF 100%);
-}
-
-.btn-6 {
-    background: linear-gradient(135deg,
-            #00A651 0%,
-            #00A6FF 50%,
-            #00358C 100%);
-}
-
-.btn-7 {
-    background: linear-gradient(to right,
-            #071120,
-            #00358C);
-}
-
-.btn-8 {
-    background: linear-gradient(135deg,
-            #ffb347 0%,
-            #ff5e00 100%);
-}
-
-.btn-9 {
-    background: linear-gradient(135deg,
-            #ff8800 0%,
-            #005BFF 50%,
-            #00A651 100%);
-}
-
-.btn-10 {
-    background: linear-gradient(135deg,
-            rgba(0, 91, 255, 0.95),
-            rgba(0, 166, 255, 0.75));
-
-    backdrop-filter: blur(12px);
-} */
