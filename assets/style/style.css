@@ -1134,6 +1134,48 @@ Blog Section (Home Page)
     transform: rotate(-45deg);
 }
 
+.blogDet-sec .tags-area ul li {
+    display: inline-block;
+    margin: 0 16px 0 0;
+}
+
+.blogDet-sec .tags-area ul li a {
+    color: #09171b;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    display: inline-block;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.blogDet-sec .blogDet-head {
+    font-family: "Figtree", sans-serif;
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #09171b;
+}
+
+.blogDet-sec .right-area {
+    position: relative;
+    margin-top: 24px;
+}
+
+.blogDet-sec .right-area .check1 {
+    position: absolute;
+}
+
+.blogDet-sec .right-area .check1 i {
+    color: #00317a;
+    font-size: 20px;
+}
+
+.blogDet-sec .right-area .content {
+    padding-left: 30px;
+}
+
 /* 
 ===========================================================================================================
 Contact Section
@@ -1827,6 +1869,12 @@ Social Media Page
     background-color: #edeafb;
 }
 
+.socialmedia-sec .socialMediaCard-Sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .socialmedia-sec .socialMedia-card {
     text-align: center;
     position: relative;
@@ -2324,6 +2372,16 @@ Brand Strategy & Design Page
     }
 }
 
+@media (max-width:835px) {
+
+    .footer-sec .footer-content1,
+    .footer-sec .footer-content2,
+    .footer-sec .footer-content3 {
+        padding-left: 0;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width:768px) {
     .hero-content {
         margin-top: 40px;
@@ -2342,6 +2400,10 @@ Brand Strategy & Design Page
 
     .copyright {
         margin-top: 20px;
+    }
+
+    .socialmedia-sec .socialMediaCard-Sec {
+        flex-wrap: wrap;
     }
 }
 
