@@ -693,6 +693,10 @@ Service Section
     transition: 0.4s;
 }
 
+.service-box .icons img{
+    width: 45px;
+}
+
 .service-box .content-area .head {
     color: rgb(9, 23, 27);
     font-family: var(--ztc-family-font1);
