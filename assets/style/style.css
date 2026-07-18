@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+SC:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
 
 * {
     padding: 0;
@@ -45,21 +52,19 @@ p {
     align-items: center !important;
 }
 
-.heading h2 {
-    /* font-family: "Montserrat", sans-serif; */
+/* .heading h2 {
     font-family: "Figtree", sans-serif;
     font-size: 44px;
     line-height: 52px;
     font-weight: 700;
     color: #09171b;
-}
+} */
 
 .sub-title {
     font-size: 16px;
     line-height: 16px;
     font-weight: 500;
     background: var(--ddd, linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%));
-    /* background: var( linear-gradient(91deg, #00A651 0.78%, #00358C 99.88%)); */
     background-clip: text;
     border-radius: 8px;
     transition: all 0.4s;
@@ -67,7 +72,6 @@ p {
     display: inline-block;
     padding: 8px 12px;
     color: #f48231;
-    /* color: #003B9A; */
 }
 
 .sub-title img {
@@ -110,6 +114,47 @@ p {
     transform: rotate(-45deg);
 }
 
+.quote-btn {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 22px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    z-index: 1;
+    text-decoration: none;
+    background: linear-gradient(90deg, #ff7a00, #ff5a00);
+}
+
+.quote-btn i {
+    margin-left: 4px;
+    transform: rotate(-45deg);
+}
+
+.quote-btn-outline {
+    position: relative;
+    text-decoration: none;
+    background: #fff;
+    padding: 12px 22px;
+    border-radius: 5px;
+    border: 2px solid #00358C;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: #00358C;
+    font-weight: 600;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.quote-btn-outline i {
+    margin-left: 4px;
+    transform: rotate(-45deg);
+}
+
 .header {
     position: sticky;
     top: -1px;
@@ -127,7 +172,7 @@ p {
 }
 
 .nav {
-    height: 3.5rem;
+    height: 4.5rem;
     display: block;
 }
 
@@ -507,8 +552,7 @@ Hero Section
 }
 
 .hero-content h2 {
-    /* font-family: "Montserrat", sans-serif; */
-    font-family: "Figtree", sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 60px;
     line-height: 66px;
     font-weight: 700;
@@ -516,7 +560,6 @@ Hero Section
 }
 
 .hero-content p {
-    /* font-family: "Montserrat", sans-serif; */
     font-family: "Figtree", sans-serif;
     font-size: 18px;
     line-height: 28px;
@@ -547,7 +590,7 @@ Hero Section
     color: #00358C;
     font-weight: 600;
     transition: 0.4s;
-    margin-left: 16px;
+    /* margin-left: 16px; */
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -570,7 +613,7 @@ Hero Section
 About Section 
 ===========================================================================================================
 */
-.about-sec {
+/* .about-sec {
     position: relative;
     z-index: 1;
 }
@@ -605,12 +648,15 @@ About Section
     height: 600px;
 }
 
-.about-content h2 {
-    font-family: "Figtree", sans-serif;
-    font-size: 44px;
-    line-height: 52px;
+.section-heading {
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #09171b;
+    font-size: 36px;
+    line-height: 1.25;
+    margin: 0;
+    max-width: 700px;
+    text-wrap: balance;
 }
 
 .about-content p {
@@ -618,7 +664,7 @@ About Section
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color: #5c6365;
+    color: #00080a;
 }
 
 .about-sec .about-content .about-icons {
@@ -652,6 +698,84 @@ About Section
     transition: all 0.4s;
     padding-left: 60px;
     text-decoration: none;
+} */
+
+.about-sec {
+    position: relative;
+    z-index: 1;
+}
+
+.images-area {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.images-area img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.section-heading {
+    /* font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-wrap: balance; */
+
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1;
+    margin: 0;
+    max-width: 100%;
+    text-wrap: balance;
+    /* max-width: 605px; */
+    text-transform: lowercase !important;
+}
+
+.about-content p {
+    font-family: "Figtree", sans-serif;
+    font-size: clamp(14px, 1vw, 16px);
+    line-height: 1.6;
+    font-weight: 500;
+    color: #00080a;
+}
+
+.about-content h6 {
+    font-size: clamp(15px, 1.1vw, 18px);
+    margin-top: 8px;
+    font-family: "Cormorant SC", serif;
+    color: #00080a;
+}
+
+.about-content ul li {
+    font-size: clamp(13px, 0.95vw, 15px);
+    line-height: 1.6;
+    color: #00080a;
+    font-weight: 400;
+}
+
+/* Fix the specific 992px–1366px laptop squeeze zone */
+@media (min-width: 992px) and (max-width: 1366px) {
+    .about-content {
+        padding-left: 24px;
+    }
+}
+
+/* Below 992px, Bootstrap already stacks col-lg-6 to full width — 
+   just make sure content isn't cramped once it's full-width */
+@media (max-width: 991px) {
+    .about-content {
+        margin-top: 32px;
+        padding-left: 0;
+    }
 }
 
 /* 
@@ -665,11 +789,17 @@ Service Section
     background: #f8f6fc;
 }
 
-.service-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.service-sec .service-header h2{
+    font-family: "Cormorant SC", serif;
+    font-weight: bolder;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-transform: lowercase !important;
 }
+
 
 .service-box {
     position: relative;
@@ -693,7 +823,7 @@ Service Section
     transition: 0.4s;
 }
 
-.service-box .icons img{
+.service-box .icons img {
     width: 45px;
 }
 
@@ -710,7 +840,7 @@ Service Section
 }
 
 .service-box .content-area p {
-    color: rgb(92, 99, 101);
+    color: rgb(30, 34, 35);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -783,13 +913,115 @@ Service Section
     filter: brightness(0) invert(1);
 }
 
+.service-box1 {
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    background-color: #FFF;
+    margin-bottom: 30px;
+}
+
+.service-box1 .service-content {
+    /* background-color: white; */
+    padding: 13px 10px;
+}
+
+.service-box1 .service-content a {
+    color: #09171b;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.service-box1 .service-content p {
+    /* color: #5c6365; */
+    color: rgb(30, 34, 35);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+.service-box1 .service-content .readmore {
+    color: #2b2b2b;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.service-box1 .service-content .readmore i {
+    margin-left: 4px;
+    transform: rotate(-45deg);
+}
+
+.service-box2 {
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 40px 0 40px 0;
+}
+
+.service-box2 .service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box2 .service-content h4 {
+    /* color: #09171b; */
+    color: #002F7D;
+    font-family: "Cormorant SC", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 28px;
+    /* display: inline-block; */
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-box2 .service-content p {
+    /* color: #5c6365; */
+    color: #00080a;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+.service-box2 .service-content .readmore {
+    color: #00080a;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.service-box2 .service-content .readmore i {
+    margin-left: 4px;
+    transform: rotate(-45deg);
+}
+
 /* 
 ===========================================================================================================
 Testimonial Section 
 ===========================================================================================================
 */
 .testimonial-sec {
-    background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%);
+    /* background: linear-gradient(91deg, #ff0a54 0.78%, #ff6f00 99.88%); */
+    background-color: #FFF;
 }
 
 .slider-header {
@@ -797,6 +1029,19 @@ Testimonial Section
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.testimonial-sec .slider-header .heading h2 {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #00080a;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1;
+    margin: 0;
+    max-width: 100%;
+    /* text-wrap: balance; */
+    max-width: 605px;
+    text-transform: lowercase;
 }
 
 .swiper-nav {
@@ -821,10 +1066,14 @@ Testimonial Section
 }
 
 .testimonial-card {
-    background: rgba(255, 255, 255, 0.12);
+    /* background: rgba(247, 41, 41, 0.12); */
+    background-color: #FFF;
     padding: 40px;
     border-radius: 10px;
     height: 100%;
+    margin: 20px 0;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .stars {
@@ -834,21 +1083,23 @@ Testimonial Section
 
 .stars li {
     display: inline-block;
-    height: 28px;
-    width: 28px;
+    /* height: 28px;
+    width: 28px; */
     border-radius: 4px;
     border-radius: 1px;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
     text-align: center;
     line-height: 28px;
 }
 
 .stars i {
-    color: #fff;
+    /* color: #fff; */
+    color: #F66901;
 }
 
 .testimonial-card p {
-    color: #fff;
+    /* color: #fff; */
+    color: #00080a;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -856,23 +1107,16 @@ Testimonial Section
     transition: all 0.4s;
 }
 
-.testimonial-card .client-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 5px 20px;
-}
-
 .testimonial-card .client-box .name-text {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .testimonial-card .client-box .name-text img {
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 50%;
@@ -880,32 +1124,125 @@ Testimonial Section
 
 .testimonial-card .client-box .name-text .content {
     padding-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .testimonial-card .client-box .name-text .content a {
-    color: #f8f6fc;
-    font-size: 20px;
+    /* color: #f8f6fc; */
+    color: #002F7D;
+    font-family: "Cormorant SC", serif;
+    font-size: 21px;
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
     display: inline-block;
     transition: all 0.4s;
     text-decoration: none;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 .testimonial-card .client-box .name-text .content p {
-    color: #fff;
+    /* color: #fff; */
+    color: #00080a;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 20px;
     opacity: 80%;
+    text-align: center;
 }
 
 .testimonial-card .client-box .quote-icon {
     font-size: 70px;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: #F66901;
 }
+
+/* 
+===========================================================================================================
+Clients Section 
+===========================================================================================================
+*/
+.clients-sec {
+    background: #f9f9fb;
+}
+
+.clients-sec .heading h2 {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    /* max-width: 605px; */
+    text-transform: lowercase !important;
+}
+
+.clients-sec .heading p {
+    color: rgb(30, 34, 35);
+}
+
+.clients-sec .ClientsSwiper {
+    padding-bottom: 45px;
+}
+
+.clients-sec .client-logo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.clients-sec .client-logo-card img {
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* .clients-sec .client-logo-card img {
+    max-height: 50px;
+    max-width: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.clients-sec .client-logo-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+    border-color: transparent;
+}
+
+.clients-sec .client-logo-card:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.clients-sec .swiper-pagination-bullet-active {
+    background: #6c63ff;
+}
+
+@media (max-width: 767px) {
+    .clients-sec .client-logo-card {
+        height: 80px;
+        padding: 12px;
+    }
+    .clients-sec .client-logo-card img {
+        max-height: 35px;
+    }
+} */
 
 /* 
 ===========================================================================================================
@@ -916,6 +1253,19 @@ Others Section
     position: relative;
     z-index: 1;
     background: #09171b;
+}
+
+.others-sec .others-header .heading h2 {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-transform: lowercase;
+    /* text-wrap: balance; */
+    /* max-width: 605px; */
 }
 
 .others-header p {
@@ -955,7 +1305,7 @@ Brand Section
 .brand-sec {
     position: relative;
     z-index: 1;
-    background-image: url("https://seoc-html-v2.vercel.app/assets/img/bg/cta-bg13.png");
+    background-image: url("../image/background/cta-bg13.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -971,7 +1321,19 @@ Brand Section
     object-fit: contain;
 }
 
-.brand-header p {
+.brand-sec .brand-header .heading h2 {
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-wrap: balance;
+    font-family: "Cormorant SC", serif;
+    /* text-transform: lowercase; */
+}
+
+.brand-sec .brand-header .heading p {
     color: rgb(233, 246, 249);
     font-size: 16px;
     font-style: normal;
@@ -979,6 +1341,8 @@ Brand Section
     line-height: 26px;
     margin: 0;
     transition: 0.4s;
+    text-wrap: balance;
+    /* max-width: 605px; */
 }
 
 .brand-header .btn-area .brand-btn {
@@ -1022,6 +1386,17 @@ Brand Section
 Blog Section (Home Page)
 ===========================================================================================================
 */
+
+.blog-sec .heading h2 {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1;
+    margin: 0;
+    max-width: 100%;
+    text-transform: lowercase;
+}
 
 .blog-sec .blog-card {
     position: relative;
@@ -1106,16 +1481,19 @@ Blog Section (Home Page)
 
 .blog-sec .blog-card .blog-content a {
     color: #09171b;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
+    font-weight: bolder;
+    line-height: 24px;
     display: inline-block;
     text-decoration: none;
+    font-family: "Cormorant SC", serif;
+    text-transform: lowercase;
 }
 
 .blog-sec .blog-card .blog-content p {
-    color: #5c6365;
+    /* color: #5c6365; */
+    color: rgb(30, 34, 35);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -1185,8 +1563,20 @@ Blog Section (Home Page)
 Contact Section
 ===========================================================================================================
 */
+.contact-header .heading h2 {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    /* max-width: 605px; */
+    text-transform: lowercase !important;
+}
+
 .contact-header p {
-    color: rgb(92, 99, 101);
+    color: rgb(30, 34, 35);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -1368,12 +1758,26 @@ Breadcrumb Section
 }
 
 .breadcrumb-heading h1 {
-    font-family: "Figtree", sans-serif;
-    font-size: 44px;
+    font-family: "Cormorant SC", serif;
+    /* font-size: 44px; */
+    font-size: clamp(24px, 2.6vw, 52px);
     line-height: 52px;
-    font-weight: 700;
+    font-weight: bolder;
     color: #f6f8f9;
+    text-transform: lowercase;
 }
+
+
+/* .clients-sec .heading h2 {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 52px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-transform: lowercase !important;
+} */
 
 .breadcrumb-heading a {
     color: #f6f8f9;
@@ -1483,16 +1887,23 @@ About1 Section
 */
 
 .about-content1 h2 {
-    /* font-family: "Montserrat", sans-serif; */
-    font-family: "Figtree", sans-serif;
-    font-size: 44px;
-    line-height: 52px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    /* text-wrap: balance; */
+    max-width: 605px;
+}
+
+.about-sec1 p {
+    color: rgb(30, 34, 35);
 }
 
 .about-content1 h4 {
-    font-size: 22px;
+    font-size: 18px;
     color: #00317a;
 }
 
@@ -1502,7 +1913,7 @@ About1 Section
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color: #5c6365;
+    color: rgb(30, 34, 35);
 }
 
 /* 
@@ -1515,6 +1926,17 @@ Mission, Vision and Values Section
     position: relative;
     z-index: 1;
     background: #f8f6fc;
+}
+
+.values-sec .heading h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    /* text-wrap: balance; */
 }
 
 .value-box {
@@ -1556,7 +1978,8 @@ Mission, Vision and Values Section
 }
 
 .value-box .content-area p {
-    color: rgb(92, 99, 101);
+    /* color: rgb(92, 99, 101); */
+    color: rgb(30, 34, 35);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -1634,6 +2057,17 @@ Prmo Section
 ===========================================================================================================
 */
 
+.prmo-sec .prmo-content h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    /* text-wrap: balance; */
+}
+
 .prmo-sec .prmo-content .prmo-card {
     position: relative;
     padding-bottom: 12px;
@@ -1655,7 +2089,7 @@ Prmo Section
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color: rgb(92, 99, 101);
+    color: rgb(30, 34, 35);
 }
 
 .prmo-icon-bg {
@@ -1688,20 +2122,39 @@ Prmo Section
 
 /* 
 ===========================================================================================================
+FAQ Section
+===========================================================================================================
+*/
+.faq-sec .heading h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    /* text-wrap: balance; */
+}
+
+/* 
+===========================================================================================================
 SEO Page
 ===========================================================================================================
 */
 
 .seo-content h2 {
-    font-family: "Figtree", sans-serif;
-    font-size: 44px;
-    line-height: 52px;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-wrap: balance;
 }
 
 .seo-content h4 {
-    font-size: 22px;
+    font-size: 18px;
     color: #00317a;
 }
 
@@ -1710,7 +2163,22 @@ SEO Page
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color: #5c6365;
+    color: rgb(30, 34, 35);
+}
+
+.seo-ranking-sec .heading h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #09171b;
+    font-size: clamp(24px, 2.6vw, 32px);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 100%;
+    text-wrap: balance;
+}
+
+.seo-ranking-sec .heading p {
+    color: rgb(30, 34, 35);
 }
 
 .seo-box {
@@ -1723,7 +2191,7 @@ SEO Page
     margin-bottom: 30px;
 }
 
-.seo-box a {
+.seo-box h5 {
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -1740,7 +2208,7 @@ SEO Page
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    color: #09171b;
+    color: rgb(30, 34, 35);
     transition: all 0.4s;
 }
 
@@ -1756,7 +2224,7 @@ SEO Page
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
-    color: #5c6365;
+    color: rgb(30, 34, 35);
 }
 
 .icon-circle {
@@ -2197,7 +2665,7 @@ Website development Page
 
 /* 
 ===========================================================================================================
-Videi Marketing Page Page
+Video Marketing Page Page
 ===========================================================================================================
 */
 .socialmedia-sec {
@@ -2436,8 +2904,8 @@ Brand Strategy & Design Page
         gap: 15px;
     }
 
-    .about-content h2 {
-        font-size: 38px;
+    .brand-header .btn-area .brand-btn-outline {
+        margin-left: 0 !important;
     }
 
     .service-header {
@@ -2473,3 +2941,167 @@ Brand Strategy & Design Page
         padding: 14px 11px;
     }
 }
+
+.hero-slide {
+    position: relative;
+}
+
+.hero-btn-content {
+    position: absolute;
+    left: 5%;
+    top: 90%;
+    transform: translateY(-50%);
+    z-index: 10;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-btn-content .btn {
+    margin-right: 15px;
+}
+
+.hero-video-section {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+    z-index: 2;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-subtitle {
+    color: #F57C00;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hero-content h1 {
+    color: #fff;
+    font-size: 58px;
+    font-weight: bolder;
+    line-height: 1;
+    margin-bottom: 20px;
+    
+    font-family: "Cormorant SC", serif;
+    text-transform: lowercase;
+}
+
+.hero-content p {
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 650px;
+    margin-bottom: 35px;
+}
+
+.hero-btn-group {
+    display: flex;
+    gap: 18px;
+}
+
+.hero-btn {
+    background: #F57C00;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.hero-btn:hover {
+    background: #0B2E83;
+    color: #fff;
+}
+
+.hero-btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.hero-btn-outline:hover {
+    background: #fff;
+    color: #0B2E83;
+}
+
+@media (max-width:992px) {
+
+    .hero-video-section,
+    .hero-content {
+        height: 500px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .hero-video-section,
+    .hero-content {
+        height: 420px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .hero-btn-group {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:415px){
+    .hero-video-section .hero-btn-group .hero-btn, 
+    .hero-video-section .hero-btn-group .hero-btn-outline{
+        padding: 15px 17px;
+    }
+}
+
