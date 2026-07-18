@@ -1767,18 +1767,6 @@ Breadcrumb Section
     text-transform: lowercase;
 }
 
-
-/* .clients-sec .heading h2 {
-    font-family: "Cormorant SC", serif;
-    font-weight: 700;
-    color: #09171b;
-    font-size: clamp(24px, 2.6vw, 52px);
-    line-height: 1.3;
-    margin: 0;
-    max-width: 100%;
-    text-transform: lowercase !important;
-} */
-
 .breadcrumb-heading a {
     color: #f6f8f9;
     text-decoration: none;
